@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sometype Mono', monospace;*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(4_20231223_221454_0001.jpg) ;
+    background-size:cover;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 73%;
+    height: 80%;
+    background-color: rgba(26, 221, 114, 0.74);
+    border-radius: 20px;
+}
+
+#botonera{
+    display: flex;
+
+    margin: 15px;
+    justify-content: space-between;
+    width: 70%;
+    height: 20%;
+
+}
+
+
+#tecla{
+    background-color: rgb(94, 95, 95);
+    font-size: xx-large;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 6px;
+    color: aliceblue;
+
+
+}
+

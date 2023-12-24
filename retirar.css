@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sometype Mono', monospace;*/
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(4_20231223_221454_0001.jpg) ;
+    background-size:cover;
+    
+}
+
+
+.teclado{
+    display: flex;
+    background-color: rgba(127, 190, 177, 0.548);
+    width: 40%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.saldo{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 221, 114, 0.63);
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+
+#fuente{
+    background-color: rgb(152, 185, 174);
+    font-size: x-large;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 6px;
+}
+
+#cancelar{
+    background-color: rgb(192, 5, 5);
+    font-size: large;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 6px;
+    
+}
+
+#corregir{
+    background-color: rgb(224, 183, 47);
+    font-size: large;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 6px;
+}
+
+#confirmar{
+    background-color: rgb(53, 216, 21);
+    font-size: large;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 6px;
+}
+
+#titulo{
+    margin: 10px;
+
+}
+
+#nuevosaldo{
+    font-size: x-large;
+    background: none;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+#nuevo{
+    font-size: x-large;
+    background: none;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+#display{
+    font-size: x-large;
+    border-radius: 10px;
+    text-align: center;
+
+}

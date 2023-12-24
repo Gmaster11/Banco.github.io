@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sometype Mono', monospace;*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(4_20231223_221454_0001.jpg) ;
+    background-size:cover;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    background-color: rgba(3, 71, 134, 0.733);
+    border-radius: 20px;
+}
+
+#imagen{
+    width: 30%;
+    height: 30%;
+    border-radius: 250px;
+    margin: 5px;
+    
+
+}
+
+.input{
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    color: blueviolet;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.error{
+    color: rgb(215, 11, 11);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.escondido{
+    display: none;
+}

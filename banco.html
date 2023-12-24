@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Depositar</title>
+</head>
+<body>
+    <div class="teclado">
+   <input type="text" id="display" style="WIDTH: 228px; HEIGHT: 50px"> 
+
+   <div class="botones">
+    
+
+   <div class="linea">
+       <button id="fuente" onclick="appendToDisplay('7')">7</button>
+       <button id="fuente" onclick="appendToDisplay('8')">8</button>
+       <button id="fuente" onclick="appendToDisplay('9')">9</button>
+       <button id="cancelar" onclick="location.href='principal.html'">CANCELAR</button>
+   </div>
+   <div class="linea">
+       <button id="fuente" onclick="appendToDisplay('4')">4</button>
+       <button id="fuente" onclick="appendToDisplay('5')">5</button>
+       <button id="fuente" onclick="appendToDisplay('6')">6</button>
+       <button id="corregir" onclick="clearDisplay()">CORREGIR</button>
+   </div>
+   <div class="linea">
+       <button id="fuente" onclick="appendToDisplay('1')">1</button>
+       <button id="fuente" onclick="appendToDisplay('2')">2</button>
+       <button id="fuente" onclick="appendToDisplay('3')">3</button>
+
+   </div>
+   <div class="linea">
+       <button id="fuente" onclick="appendToDisplay('*')">*</button>
+       <button id="fuente" onclick="appendToDisplay('0')">0</button>
+       <button id="fuente" onclick="calculate()">.</button>
+       <button id="confirmar" onclick="calculate()">CONFIRMAR</button>
+   </div>
+   </div>
+   </div>
+
+    <div class="saldo">
+        <h1 id="titulo">Saldo inicial:</h1>
+        <input type="text" id="nuevo"  style="WIDTH: 228px; HEIGHT: 50px">
+        <h1 id="titulo"> Nuevo saldo es:</h1>
+        <input type="text" id="nuevosaldo"  style="WIDTH: 228px; HEIGHT: 50px" >
+
+    </div>
+    <script src="banco.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

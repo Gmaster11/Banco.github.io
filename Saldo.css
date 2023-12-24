@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sometype Mono', monospace;*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(4_20231223_221454_0001.jpg) ;
+    background-size:cover;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(26, 221, 114, 0.959);
+    border-radius: 20px;
+}
+
+#usuario1{
+    font-size: x-large;
+    background: none;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+#total{
+    font-size: x-large;
+    background: none;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+#boton{
+    font-size: x-large; 
+    padding: 10px;
+    border-radius: 10px;
+}
